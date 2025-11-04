@@ -112,6 +112,15 @@
     }
 }
 
+/* 注册你的自定义字体并告诉浏览器它在哪里 */
+@font-face {
+    font-family: 'LXGWWenKai-Regular';
+    src: url('/fonts/LXGWWenKai-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .custom-md img, #post-cover img {
     @apply cursor-zoom-in
 }
