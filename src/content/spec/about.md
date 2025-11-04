@@ -40,6 +40,11 @@ GitHub这个网站在国内经常无法访问，但是过段时间就可以正�
 
 如果要使用开源的markdown编辑器的话我推荐MarkText和Obsidian，商业软件的话就Typora。
 
+参考了以下大佬的博客改造：
+
+- [对Fuwari进行一些小的改动 - 伊卡的记事本](https://ikamusume7.org/posts/frontend/some_small_code_changes/)
+- [在Fuwari中添加评论功能(带黑暗模式) - 伊卡的记事本](https://ikamusume7.org/posts/frontend/comments_with_darkmode/)
+
 目前我魔改了一下创建新post的脚本，如果直接运行`npm run new-post`，不带任何参数的话会启动一个交互式，创建新post的界面。同时，也可以通过传入参数的方式直接创建post：
 
 使用方式：
