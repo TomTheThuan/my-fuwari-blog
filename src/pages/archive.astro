@@ -1,5 +1,6 @@
 ---
 import ArchivePanel from "@components/ArchivePanel.svelte";
+import Comments from "@components/widget/Comments.svelte";
 import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import MainGridLayout from "@layouts/MainGridLayout.astro";
@@ -10,5 +11,8 @@ const sortedPostsList = await getSortedPostsList();
 
 <MainGridLayout title={i18n(I18nKey.archive)}>
     <ArchivePanel sortedPosts={sortedPostsList} client:only="svelte"></ArchivePanel>
+
+    <Comments client:only="svelte"></Comments>
+    
 </MainGridLayout>
 
