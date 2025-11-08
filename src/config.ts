@@ -8,7 +8,7 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "TTT's Bolg",
+	title: "Thyrius",
 	subtitle: "A Collection of My Work",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
@@ -44,22 +44,22 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
-		{
-			name: "GitHub",
-			url: "https://github.com/TomTheThuan", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
-		},
-		{
-			name: "Gitee",
-			url: "https://gitee.com/TomTheThuan", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
-		},
+		// {
+		// 	name: "GitHub",
+		// 	url: "https://github.com/TomTheThuan", // Internal links should not include the base path, as it is automatically added
+		// 	external: true, // Show an external link icon and will open in a new tab
+		// },
+		// {
+		// 	name: "Gitee",
+		// 	url: "https://gitee.com/TomTheThuan", // Internal links should not include the base path, as it is automatically added
+		// 	external: true, // Show an external link icon and will open in a new tab
+		// },
 	],
 };
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "TomTheThuan",
+	name: "Thyrius",
 	bio: "做更好的自己!",
 	links: [
 		// {
@@ -84,6 +84,12 @@ export const profileConfig: ProfileConfig = {
       icon: 'fa6-solid:envelope',
       url: 'mailto:tomthethuan@outlook.com',
     },
+	  {
+      name: 'Bilibili',
+      icon: 'fa6-brands:bilibili',
+      url: 'https://space.bilibili.com/1193181424?spm_id_from=333.1007.0.0',
+    },
+
   ],
 };
 
