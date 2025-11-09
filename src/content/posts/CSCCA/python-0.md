@@ -260,7 +260,7 @@ lang: 'zh_CN'
 
 3. `cd ~/Documents/Python`：使用`cd`（change directory）命令切换到新创建的目录。
 
-4. `uv init learn-python`：通过`uv`创建一个名为`learn-pytohn`的python项目
+4. `uv init learn-python`：通过`uv`创建一个名为`learn-python`的python项目
 
 5. `cd learn-python`：切换到这个新创建的项目
 
