@@ -1,5 +1,5 @@
 ---
-title: AS Biology Chapter 1
+title: AS Biology Chapter 1 - Cells
 published: 2025-10-14
 description: "My notes for AS-Level Biology, chapter 1"
 image: ""
