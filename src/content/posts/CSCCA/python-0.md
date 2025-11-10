@@ -56,8 +56,8 @@ lang: 'zh_CN'
    > 如果因为国内的网络原因导致安装失败的话，可以试试下面这两个命令：
    >
    > ```shell
-   > sh -c "$(curl -fsSL https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh)"
-   > sh -c "$(wget https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh -O -)"
+   > sh -c "$(curl -fsSL https://gitee.com/Devkings/oh_my_zsh_install/raw/master/install.sh)"
+   > sh -c "$(wget https://gitee.com/Devkings/oh_my_zsh_install/raw/master/install.sh -O -)"
    > ```
    > 如果在安装的过程中Mac有弹窗表示要安装一些额外的工具的话，选择安装即可。等安装完毕后再重新执行命令。
    >
