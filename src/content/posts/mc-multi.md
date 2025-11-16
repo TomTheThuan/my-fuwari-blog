@@ -1,5 +1,5 @@
 ---
-title: 我的世界zetorier多人联机方案
+title: 我的世界Zerotier多人联机方案
 published: 2025-11-15
 description: 'MC非正版账号联机方案的总结'
 image: ''
