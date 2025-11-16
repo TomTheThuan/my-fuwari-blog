@@ -118,11 +118,11 @@ Mac用户和Windows用户的操作应该差不多。
 
 选择加入网络：
 
-<img src="./mc-multi.assets/IMG_0371-1763260466563-2.jpeg" style="zoom:50%;" />
+![](./mc-multi.assets/0371.png)
 
 并在弹出的窗口中输入你要加入的网络ID：
 
-<img src="./mc-multi.assets/IMG_0372-1763260483537-4.jpeg" style="zoom:50%;" />
+![](./mc-multi.assets/0372-1763264466994-3.png)
 
 > 之后，创建网络的需要重新刷新网页中zerotier网络的管理页面，此时应该会出现一个新设备加入的请求，确认这个设备就是要加入的设备后，选的允许通过就可以了
 
